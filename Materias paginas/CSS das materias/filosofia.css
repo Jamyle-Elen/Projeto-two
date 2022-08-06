@@ -1,0 +1,59 @@
+.ghost {
+    margin-bottom: 0;
+    margin-top: 12px;
+    border-top: 1.5px rgba(0, 0, 0, 0.5) solid;
+    height: 7vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+.conteudo {
+    /*border: red solid;*/
+    position: relative;
+    margin: 0px 10px 20px 10px;
+    /*deixar sem as virgulas para funcionar*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    color: rgb(34, 33, 33);
+    font-size: 17px;
+}
+
+::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(62, 226, 226);
+}
+
+a::selection {
+    color: #fff;
+    background: rgba(78, 81, 128, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+.conteudo-filosofia {
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: justify;
+}
+
+/*footer*/
+.copy {
+    background: rgb(37, 32, 32);
+    color: #fff;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Rubik giltch, cursive;
+}
+
+.autores {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Rubik giltch, cursive;
+}

@@ -1,0 +1,69 @@
+* {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgb(238, 230, 230);
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.ull {
+    margin: 2% 8%;
+    text-align: center;
+    width: 78%;
+}
+
+.creditos {
+    margin: 10px;
+    font-family: Poppins, sans-serif;
+    color: #000;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow-wrap: break-word; /*quebra da linha*/
+    word-wrap: break-word;
+
+    font-weight: 900; /*tom do negrito*/
+    line-height: 30px; /*espaçamento entre linhas*/
+    
+    /*justify-content: ;*/
+}
+
+.creditos a:hover {
+    color: rgb(131, 72, 185);
+}
+
+::selection {
+  color: rgb(0, 0, 0);
+  background: rgb(62, 226, 226);
+}
+
+/*fonte VAG Rounded*/
+
+
+/*footer*/
+.copy {
+    background: rgb(37, 32, 32);
+    color: #fff;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Giltch', cursive;
+}
+
+.autores {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Rubik Giltch', cursive;
+    color: #000;
+}

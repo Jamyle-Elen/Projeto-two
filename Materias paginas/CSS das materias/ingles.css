@@ -1,0 +1,18 @@
+/*footer*/
+.copy {
+    background: rgb(37, 32, 32);
+    color: #fff;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Rubik giltch, cursive;
+}
+
+.autores {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Rubik giltch, cursive;
+}

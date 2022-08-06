@@ -1,0 +1,18 @@
+body {
+    background-image: url(../fundosc/estudos.png);
+
+    font: normal 18pt Arial;
+    color: aliceblue;
+
+}
+
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+
+div#res {
+    margin: 20px;
+    color: aliceblue;
+    font-family: 'Rubik Giltch';
+}

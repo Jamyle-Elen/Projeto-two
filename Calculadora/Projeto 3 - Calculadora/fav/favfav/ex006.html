@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagem/x-icon" href="fav/favfav/favicon-16x16.png" />
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            background: bisque;
+            font: normal 15px Arial;
+            color: black;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url(img/)
+        }
+    </style>
+    <div id="area">
+        Interaja...
+    </div>
+
+    <script class="tudotudo">
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'violet'
+        }
+        function entrar() {
+            a.innerText = 'Chegou!'
+            a.style.background = 'orchid'
+        }
+        function sair() {
+            a.innerText = 'Vazou!'
+            a.style.background = 'darkorchid'
+        }
+    </script>
+</body>
+</html>
