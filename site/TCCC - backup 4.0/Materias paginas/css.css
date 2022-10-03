@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Rubik+Glitch&family=Source+Serif+Pro:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.modelo-unico {
+  background-image: linear-gradient(to right,rgb(252,176,191),rgb(152,215,241),rgb(108,124,74));
+  width: 100%;
+  height: 93vh;
+  position: absolute;
+}
+
+.h1m {
+  font-family: Poppins,sans-serif;
+  text-align: center;
+}
+
+.h4m {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+
+.h2m {
+  font-family: Poppins, sans-serif;
+  margin-left: 10px;
+}
+
+.pm {
+  font-family: Candara, sans-serif;
+  margin-left: 10px;
+}
+
+/*rgb(180,116,54)*//*rgb(252,176,191)*//*rgb(152,215,241)*//*rgb(108,124,74)*/
+
+main {
+  position: relative;
+}
+
+main a {
+  color: #000;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+header {
+  position: sticky!important;
+  top: 0;
+  z-index: 2;
+  /*box-shadow: rgb(95, 58, 95) 10px 10px 10px 10px;*//*muahahah*//*o primeiro nao faz nada, distancia, opacidade, tamanho*/
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 0.7s;
+
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(19, 18, 18);
+  width: 100%;
+  height: 7vh;
+  margin: 0;
+  position: relative;
+}
+
+.menu-logo {
+  width: 50px;
+  height: 7vh;
+}
+
+.menu-logo img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.menu-logo :hover {
+  color: rgb(161, 225, 98);
+  width: 80px;
+  height: 80px;
+  transition: 0.9s;
+  background: rgba(37, 37, 37, 1);
+}
+
+.b1,
+.b2,
+.b3 {
+  border-radius: 22px;
+}
+
+
+.icon-menu {
+  height: 70%;
+  width: 50px;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.icon-menu div {
+  width: 50px;
+  height: 20%;
+  background: white;
+  margin: 6% 0;
+  transition: 0.75s;
+
+}
+
+.menubar :hover>.sidebar {
+  left: 0;
+}
+
+.menu {
+  display: flex;
+  letter-spacing: 3px;
+  width: 15%;
+  font-family: Verdana, sans-serif;
+}
+
+.menu li {
+  margin: 0 3%;
+}
+
+
+
+.sidebar {
+
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  background: rgb(18, 18, 24);
+  left: -9416px;
+  border-right: 10px rgba(59, 57, 57, 0.3) solid;
+  top: 0;
+  transition: 0.30s;
+}
+
+
+.sidebar h1 {
+  text-align: center;
+  color: white;
+  height: 3.5vh;
+  margin-bottom: 5%;
+  margin-top: 30px;
+}
+
+.sidebar ul>li {
+  
+  height: 100%;
+  text-align: center;
+  border-bottom: rgba(255, 255, 255, 0.3)solid;
+
+  line-height: 7vh;
+
+}
+
+.sidebar ul :hover {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(138, 138, 163, 0.3);
+
+
+}
+
+
+
+
+
+
+.sidebar ul li :hover {
+  color: rgba(135, 255, 255, 0.9);
+  border-left: 6px rgba(133, 255, 255, 1) solid;
+  position: relative;
+  transition: 1s;
+}
+
+.sidebar ul ul {
+  display: none;
+}
+
+.sidebar ul :hover>ul {
+  display: block;
+}
+
+.sidebar ul li :hover>ul {
+  color: rgba(0, 255, 191, 0.9);
+  position: absolute;
+  top: -60pt;
+  background: rgb(21, 21, 22);
+  left: 100%;
+  width: 70%;
+  border-radius: 10px;
+}
+
+
+.sidebar ul li a:hover> ul li a{
+  border-bottom: rgba(255, 255, 255, 0.5) solid;
+}
+
+/*cabeçalho / menu*/

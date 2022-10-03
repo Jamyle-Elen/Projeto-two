@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="VMexclusiva.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Calk@</title>
+</head>
+<body>
+
+
+    <div class="all">
+        <div class="ufpe">
+            <h1>UFPE - Campus Recife/Caruaru PE</h1>
+            <div class="box">
+                <input type="number" id="n1">
+                <input type="number" id="n2">
+                <input type="number" id="n3">
+                <input type="number" id="n4">
+                <input type="number" id="n5">
+            <div>
+            <button onclick="calcular()">Buscar</button>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="ufrpe">
+            <h1>UFRPE - Campus Recife/Caruaru PE</h1>
+            <div class="box">
+                <input type="number" id="n1">
+                <input type="number" id="n2">
+                <input type="number" id="n3">
+                <input type="number" id="n4">
+                <input type="number" id="n5">
+            <div>
+            <button onclick="calcular()">Buscar</button>
+            </div><br>
+            <h4><a href="../index.html">Back</a></h4>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        function calcular() {
+
+            
+
+            var n1 = document.getElementById("n1").value
+            var n2 = document.getElementById("n2").value
+            var n3 = document.getElementById("n3").value
+            var n4 = document.getElementById("n4").value
+            var n5 = document.getElementById("n5").value
+
+            var media = (Number(n1) + Number(n2) + Number(n3) + Number (n4) + Number (n5) /5)
+
+            if(media >= 500) {
+
+                document.write("Engenharia Cartográfica E De Agrimensur: 573.03 Recife - PE")
+            
+                document.write("Geologia - 583.34")
+                /*
+                document.write("Secretariado Executivo - 587.69")
+                document.write("Educação Física - 588.16")
+                document.write("Pedagogia - 596.48")
+                document.write("Letras Espanhol - 599.61")
+                document.write("")
+                document.write("")
+                document.write("")
+                */
+
+
+            }
+
+        }
+    </script>
+</body>
+</html>

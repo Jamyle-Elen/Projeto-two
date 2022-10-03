@@ -1,0 +1,79 @@
+
+UFPE - Campus Recife/Caruaru PE
+
+Engenharia Cartográfica E De Agrimensura	573.03	Campus Universitário Cidade Do Recife	Recife - PE
+Geologia	583.34	Campus Universitário Cidade Do Recife	Recife - PE
+Secretariado Executivo	587.69	Campus Universitário Cidade Do Recife	Recife - PE
+Educação Física	588.16	Campus Universitário Cidade Do Recife	Recife - PE
+Pedagogia	596.48	Campus Universitário Cidade Do Recife	Recife - PE
+Letras Espanhol	599.61	Campus Universitário Cidade Do Recife	Recife - PE
+Geografia	599.98	Campus Universitário Cidade Do Recife	Recife - PE
+Expressão Gráfica	601.19	Campus Universitário Cidade Do Recife	Recife - PE
+Educação Física	602.88	Campus Vitória	Vitória de Santo Antão - PE
+Engenharia De Minas	607.52	Campus Universitário Cidade Do Recife	Recife - PE
+Hotelaria	607.82	Campus Universitário Cidade Do Recife	Recife - PE
+Química	614.82	Campus Do Agreste Caruaru	Caruaru - PE
+Biblioteconomia	615.53	Campus Universitário Cidade Do Recife	Recife - PE
+Química	616.4	Campus Universitário Cidade Do Recife	Recife - PE
+Ciências Biológicas Ênfase Em Ciências Ambientais	617.46	Campus Universitário Cidade Do Recife	Recife - PE
+Turismo	617.47	Campus Universitário Cidade Do Recife	Recife - PE
+Museologia	618.9	Campus Universitário Cidade Do Recife	Recife - PE
+Saúde Coletiva	620.14	Campus Vitória	Vitória de Santo Antão - PE
+Filosofia	620.93	Campus Universitário Cidade Do Recife	Recife - PE
+Química Industrial	621.16	Campus Universitário Cidade Do Recife	Recife - PE
+Ciências Atuariais	621.17	Campus Universitário Cidade Do Recife	Recife - PE
+Arqueologia	625.95	Campus Universitário Cidade Do Recife	Recife - PE
+Ciências Sociais	628.11	Campus Universitário Cidade Do Recife	Recife - PE
+Letras Francês	630.95	Campus Universitário Cidade Do Recife	Recife - PE
+Serviço Social	634.91	Campus Universitário Cidade Do Recife	Recife - PE
+Ciências Biológicas	635.29	Campus Vitória	Vitória de Santo Antão - PE
+Oceanografia	635.63	Campus Universitário Cidade Do Recife	Recife - PE
+Pedagogia	641.1	Campus Do Agreste Caruaru	Caruaru - PE
+Ciências Biológicas	641.84	Campus Universitário Cidade Do Recife	Recife - PE
+Interdisciplinar Em Ciência E Tecnologia	642.59	Campus Do Agreste Caruaru	Caruaru - PE
+Física	642.93	Campus Do Agreste Caruaru	Caruaru - PE
+Abi Engenharia	647.2	Campus Universitário Cidade Do Recife	Recife - PE
+Matemática	649.64	Campus Universitário Cidade Do Recife	Recife - PE
+Letras Português	650.11	Campus Universitário Cidade Do Recife	Recife - PE
+Estatística	651.45	Campus Universitário Cidade Do Recife	Recife - PE
+Física	657.74	Campus UniverDesign	661.59	Campus Do Agreste Caruaru	Caruaru - PE
+História	663.12	Campus Universitário Cidade Do Recife	Recife - PE
+Letras	663.35	Campus Universitário Cidade Do Recife	Recife - PE
+Terapia Ocupacional	664.81	Campus Universitário Cidade Do Recife	Recife - PE
+Teatro	666.06	Campus Universitário Cidade Do Recife	Recife - PE
+Gestão Da Informação	666.72	Campus Universitário Cidade Do Recife	Recife - PEsitário Cidade Do Recife	Recife - PE
+Letras Inglês	669.37	Campus Universitário Cidade Do Recife	Recife - PE
+Ciência Política	669.45	Campus Universitário Cidade Do Recife	Recife - PE
+Administração	671.67	Campus Universitário Cidade Do Recife	Recife - PE
+Ciências Econômicas	674.67	Campus Do Agreste Caruaru	Caruaru - PE
+Administração	675.06	Campus Do Agreste Caruaru	Caruaru - PE
+Engenharia De Produção	676.83	Campus Do Agreste Caruaru	Caruaru - PE
+Nutrição	677.83	Campus Vitória	Vitória de Santo Antão - PE
+Rádio, Tv E Internet	679.25	Campus Universitário Cidade Do Recife	Recife - PE
+Ciências Econômicas	684.9	Campus Universitário Cidade Do Recife	Recife - PE
+Fonoaudiologia	686.56	Campus Universitário Cidade Do Recife	Recife - PE
+Design	693.49	Campus Universitário Cidade Do Recife	Recife - PE
+Artes Visuais	693.82	Campus Universitário Cidade Do Recife	Recife - PE
+Farmácia	699.33	Campus Universitário Cidade Do Recife	Recife - PE
+Matemática	701.24	Campus Do Agreste Caruaru	Caruaru - PE
+Engenharia De Produção	704.44	Campus Universitário Cidade Do Recife	Recife - PE
+Cinema E Audiovisual	706.25	Campus Universitário Cidade Do Recife	Recife - PE
+Nutrição	707.25	Campus Universitário Cidade Do Recife	Recife - PE
+Comunicação Social	709.84	Campus Do Agreste Caruaru	Caruaru - PE
+Publicidade E Propaganda	712.64	Campus Universitário Cidade Do Recife	Recife - PE
+Enfermagem	714.2	Campus Universitário Cidade Do Recife	Recife - PE
+Engenharia Civil	717.54	Campus Do Agreste Caruaru	Caruaru - PE
+Jornalismo	718.74	Campus Universitário Cidade Do Recife	Recife - PE
+Fisioterapia	719.01	Campus Universitário Cidade Do Recife	Recife - PE
+Biomedicina	732.92	Campus Universitário Cidade Do Recife	Recife - PE
+Enfermagem	734.72	Campus Vitória	Vitória de Santo Antão - PE
+Psicologia	735.73	Campus Universitário Cidade Do Recife	Recife - PE
+Direito	746.9	Campus Universitário Cidade Do Recife	Recife - PE
+Odontologia	749.88	Campus Universitário Cidade Do Recife	Recife - PE
+Engenharia Biomédica	750.28	Campus Universitário Cidade Do Recife	Recife - PE
+Arquitetura E Urbanismo	754.28	Campus Universitário Cidade Do Recife	Recife - PE
+Engenharia Da Computação	770.26	Campus Universitário Cidade Do Recife	Recife - PE
+Ciência Da Computação	773.39	Campus Universitário Cidade Do Recife	Recife - PE
+Sistemas De Informação	775.61	Campus Universitário Cidade Do Recife	Recife - PE
+Medicina	839.08	Campus Universitário Cidade Do Recife	Recife - PE
+Medicina	859.46	Campus Do Agreste Caruaru	Caruaru - PE

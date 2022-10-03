@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@300&family=Roboto+Mono:wght@300&family=Rubik+Glitch&family=Source+Serif+Pro:wght@300&display=swap');
+
+html {
+  filter: blur();
+  word-wrap: break-word;
+  /*isso aqui serve para fazer com que a escrita quebre ao chegar no fim da pagina "width"*/
+  overflow-wrap: break-word;
+  /*esse é continuação do "word-wrap: break-word;"*/
+}
+
+* {
+  scroll-behavior: smooth;  /*serve para fazer a tela rolar de um jeito bonitinho na hora de voltar ao inicio "scroll"*/
+  padding: 0;
+  margin: 0;
+  font-family: Rubik giltch, cursive;
+  /*font fav*/
+}
+
+img {
+  width: 40px;
+  display: flex;
+  /*deixar tudo alinhado*/
+  margin: 4px;
+}
+
+header {
+  background: rgb(19, 18, 18);
+  box-shadow: 0px 3px 10px rgb(68, 61, 61);
+  width: 100%;
+
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 5rem;
+  height: 20px; /*30px orgin*/
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.nav-list a:hover {
+  color: bisque;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 550px;
+  /*pra tirar o estilo da lista e deixar um do lado do outro*/
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  /*tirar o sublinhado dos "links"*/
+  font-size: 1.15rem;
+  /*tamanho*/
+  color: #fff;
+  font-weight: 400;
+}
+/*---------------menu responsive--------------------*/
+
+.menubar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(19, 18, 18);
+  width: 100%;
+  height: 4vh;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+
+  
+}
+
+.menu-logo {
+  width: 50px;
+  height: 7vh;
+}
+
+.menu-logo img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.menu-logo :hover {
+  color: rgb(161, 225, 98);
+  width: 80px;
+  height: 80px;
+  transition: 0.9s;
+  background: rgba(37, 37, 37, 1);
+}
+
+.b1,
+.b2,
+.b3 {
+  border-radius: 22px;
+}
+
+
+.icon-menu {
+  height: 70%;
+  width: 50px;
+  box-sizing: content-box;
+  cursor: pointer;
+
+  bottom: 0%;
+}
+
+.icon-menu div {
+  width: 50px;
+  height: 20%;
+  background: white;
+  margin: 6% 0;
+  transition: 0.75s;
+
+}
+
+.menubar :hover>.sidebar {
+  left: 0;
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+  letter-spacing: 3px;
+  width: 15%;
+  font-family: Verdana, sans-serif;
+}
+
+.menu li {
+  margin: 0 3%;
+}
+
+.info {
+  color: rgb(231, 230, 230);
+  text-align: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(231, 230, 230);
+  
+}
+
+li a{
+  text-decoration: none;
+}
+
+.sidebar {
+
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  background: rgb(18, 18, 24);
+  left: -9416px;
+  border-right: 10px rgba(59, 57, 57, 0.3) solid;
+  top: 0;
+  transition: 0.30s;
+}
+
+
+.sidebar h1 {
+  text-align: center;
+  color: white;
+  height: 3.5vh;
+  margin-bottom: 5%;
+  margin-top: 30px;
+  
+}
+
+.sidebar ul>li {
+  
+  height: 100%;
+  text-align: center;
+  border-bottom: rgba(255, 255, 255, 0.3)solid;
+  
+  line-height: 7vh;
+}
+
+.sidebar ul :hover {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(138, 138, 163, 0.3);
+  text-decoration: none;
+}
+
+.sidebar ul li :hover {
+  color: rgba(135, 255, 255, 0.9);
+  border-left: 6px rgba(133, 255, 255, 1) solid;
+  position: relative;
+  transition: 1s;
+  
+}
+
+.sidebar ul li :hover>ul {
+  color: rgba(0, 255, 191, 0.9);
+  position: absolute;
+  top: -60pt;
+  background: rgb(21, 21, 22);
+  left: 100%;
+  width: 70%;
+  border-radius: 10px;
+}
+
+
+.sidebar ul li a:hover> ul li a{
+  border-bottom: rgba(255, 255, 255, 0.5) solid;
+}
+
+
+.menu-menu {
+  cursor: pointer;
+  /*pra o mouse ficar com a setinha ao passar por cima*/
+}
+
+.menu-menu div {
+  background: #fff;
+  width: 32px;
+  height: 2px;
+  margin: 8px;
+}
+
+.login-button button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+.login-button button a {
+  text-decoration: none;
+  /*tirar sublinhado*/
+  color: #fff;
+  font-weight: 500;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.vlt {
+  color: #fff;
+  /*terminar*/
+}
+
+@media screen and (max-width: 844px) {
+  /*media faz com que o site nao fique todo bagunçado quando for pra versao mobile, mas isso na questao do menu*/
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .up {
+    width: 35px;
+  }
+
+  .imgup {
+    width: 25px;
+  }
+
+}
+
+@media screen and (min-width: 844px) {
+  .menubar {
+    display: none;
+  }
+  
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.mobile-menu .nav-item {
+  display: block;
+  padding-top: 1.2rem;
+}
+
+.mobile-menu .login-button {
+  display: block;
+  padding: 1rem 2rem;
+}
+
+.mobile-menu .login-button button {
+  width: 100%;
+}
+
+.open {
+  display: block;
+}
+
+/*--------fim da cabeça--------*/
+/*linear-gradient(180deg,rgb(3, 3, 3) 0%, rgb(53, 6, 139) 100%);
+backgroud degradê ( descartado) */
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.caule {
+  font-size: 65px;
+  color: #fff;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 82.3%;
+  justify-content: center;
+  top: 50%;
+  -webkit-text-stroke: 4px rgb(0, 0, 0);
+
+}
+
+/*real começo do corpo*/
+.image {
+  height: 25%;
+  width: 8%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.up {
+  position: fixed;
+  bottom: 4%;
+  z-index: 1;
+  right: 4%;
+}
+
+.up a div {
+  background: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+main {
+  display: block;
+  background-color: #FFF;
+}
+
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+section.module p {
+  margin-bottom: 40px;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+section.module h4 {
+  text-align: center;
+  font-size: 40px;
+  color: #FFF;
+}
+
+section.module.content {
+  padding: 40px 0;
+  background: #ece7d5;
+}
+
+section.module.content .container span {
+  color: rgb(19, 18, 18);
+}
+
+section.module.parallax {
+  display: flex;
+  flex-direction: column;
+  /*coluna normal*/
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  /*pai*/
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /*nao repetir a imagem*/
+  background-attachment: fixed;
+  background-size: cover;
+  /*esses "cover serve pra ter ctz q vai ficar na tela inteira*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+section.module.parallax:after {
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /*filho*/
+  z-index: 5;
+  /*mostra qual a ordem, "um elemento com maior ordem de pilha sempre ta na frente de quem ta com o menor numero*/
+
+}
+
+/*esses ai de cima foram tudo efeitos roubados ^*/
+
+section.module.parallax-1 {
+  background-image: url(fundos/livros4.png);
+  /*primeira imagem*/
+}
+
+section.module.parallax-2 {
+  background-image: url(fundos/estudos3\ \(2\).jpg);
+  /*segunda imagem*/
+}
+
+section.module.parallax-1 h2 {
+  justify-self: start;
+}
+
+section.module.parallax-3 {
+  background-image: url("fundos/estudos4.jpg");
+  /*terceira imagem*/
+}
+
+section.module.parallax h2 {
+  /*ilumina enem*/
+  color: #FFF;
+  text-align: center;
+  font-size: 85px;
+  z-index: 4;
+  text-transform: uppercase;
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 3px;
+}
+
+section.module.parallax .titulo {
+  /*ilumina enem*/
+  color: #FFF;
+  text-align: center;
+  font-size: 85px;
+  z-index: 4;
+  text-transform: uppercase;
+  -webkit-text-stroke: #000;
+  -webkit-text-stroke-width: 3px;
+}
+
+@media all and (max-width: 820px) {
+
+  /*o babado pra reduzir a tela e as coisas diminuirem junto*/
+  section.module h2 {
+    font-size: 32px;
+  }
+
+  .module h2,
+  p {
+    padding: 0 8px;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  section.module.parallax h2 {
+    font-size: 36px;
+    text-shadow: white;
+  }
+}
+
+/*botao "back-to-top"*/
+
+#btnTop {
+  position: fixed;
+  bottom: 10%;
+  right: 40px;
+  height: 50px;
+  width: 40px;
+  background: #ccc;
+  border: none;
+  border-radius: 90%;
+  display: none;
+
+}
+
+#btnTop img {
+  width: 30px; 
+}
+
+/*-------------------------*/
