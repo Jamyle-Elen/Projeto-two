@@ -173,14 +173,15 @@ li a{
 
 .sidebar {
 
-  width: 40%;
+  width: 50%;
   height: 100vh;
   position: fixed;
   background: rgb(18, 18, 24);
-  left: -9416px;
+  right: -9416px;
   border-right: 10px rgba(59, 57, 57, 0.3) solid;
   top: 0;
   transition: 0.30s;
+  z-index: 1;
 }
 
 
@@ -193,22 +194,28 @@ li a{
   
 }
 
+.sidebar h2 {
+  color: rgb(21, 21, 22);
+  text-align: right;
+  right: 56px;
+  width: 90%;
+}
+
 .sidebar ul>li {
   
   height: 100%;
   text-align: center;
   border-bottom: rgba(255, 255, 255, 0.3)solid;
-  
   line-height: 7vh;
 }
 
-.sidebar ul :hover {
+.sidebar ul :checked {
   color: rgba(255, 255, 255, 1);
   background: rgba(138, 138, 163, 0.3);
   text-decoration: none;
 }
 
-.sidebar ul li :hover {
+.sidebar ul li :checked {
   color: rgba(135, 255, 255, 0.9);
   border-left: 6px rgba(133, 255, 255, 1) solid;
   position: relative;
@@ -216,21 +223,9 @@ li a{
   
 }
 
-.sidebar ul li :hover>ul {
-  color: rgba(0, 255, 191, 0.9);
-  position: absolute;
-  top: -60pt;
-  background: rgb(21, 21, 22);
-  left: 100%;
-  width: 70%;
-  border-radius: 10px;
-}
-
-
-.sidebar ul li a:hover> ul li a{
+.sidebar ul li a:checked> ul li a{
   border-bottom: rgba(255, 255, 255, 0.5) solid;
 }
-
 
 .menu-menu {
   cursor: pointer;
@@ -314,7 +309,6 @@ li a{
   .menubar {
     display: none;
   }
-  
 }
 
 .mobile-menu ul {
