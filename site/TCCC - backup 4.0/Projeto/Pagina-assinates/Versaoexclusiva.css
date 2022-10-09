@@ -10,10 +10,10 @@ main {
     display: flex;
     justify-content: center;
     height: 100vh;
-    margin-top: 105px; 
+    margin-top: 105px;
 }
 
-main h2 {
+.title{
     font-family: Poppins, sans-serif;
     text-align: center;
 }
@@ -64,19 +64,38 @@ main h2 {
     font-size: 15px;
 }
 
+.all .download a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
 
-@media screen and (min-width 1111px){
-    main h2 {
+.all .download a:hover {
+    color: rgb(167, 85, 85);
+    font-size: 25px;
+    transition: .7s;
+
+}
+
+.all .download a pseudo-class:hover {
+    text-decoration: none;
+    color: rgb(209, 18, 18);
+    font-size: 20px;
+    transition: 2s;
+}
+
+
+@media screen and (min-width: 845px){
+    .title {
         display: none;
     }
     
+    *{
+        overflow: hidden;
+    }
 }
 
 @media screen and (max-width: 844px) {
-    * {
-        overflow: hidden;
-    }
-
     main {
         display: flex;
         flex-direction: column;
@@ -84,10 +103,6 @@ main h2 {
 
     h2 .celular-titulo {
        display: none;
-    }
-
-    h2 {
-        
     }
 
     main .celular {

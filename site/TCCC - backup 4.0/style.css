@@ -209,13 +209,13 @@ li a{
   line-height: 7vh;
 }
 
-.sidebar ul :checked {
+.sidebar ul :hover {
   color: rgba(255, 255, 255, 1);
   background: rgba(138, 138, 163, 0.3);
   text-decoration: none;
 }
 
-.sidebar ul li :checked {
+.sidebar ul li :hover {
   color: rgba(135, 255, 255, 0.9);
   border-left: 6px rgba(133, 255, 255, 1) solid;
   position: relative;
@@ -223,7 +223,7 @@ li a{
   
 }
 
-.sidebar ul li a:checked> ul li a{
+.sidebar ul li a:hover> ul li a{
   border-bottom: rgba(255, 255, 255, 0.5) solid;
 }
 
@@ -303,11 +303,17 @@ li a{
     width: 25px;
   }
 
+
+
 }
 
 @media screen and (min-width: 844px) {
   .menubar {
     display: none;
+  }
+
+  input #scales {
+    display: flex;
   }
 }
 
